@@ -19,7 +19,7 @@ The approach taken to this problem was to outline all the functions for the driv
 Driver
 ------
 
-The drivers are parsed into an array for the drivers to be added. The add() function gets the time from the getDriveTime and mph from getMPH(distance, time); . The statement, 'if (time<0 ) return;' (line 69), doesn't process the driver if the time is negative. the driver The driver is then  constructor is created adding a new driver . the new driver is then compared to previous to drivers  and adds the distance and the time which in turn helps calculate the mph. 
+The drivers are parsed into an array for the drivers to be added. The add() function gets the time from the getDriveTime and mph from getMPH(distance, time); . The statement, 'if (time<0 ) return;' (line 69), doesn't process the driver if the time is negative. The driver   constructor is created by passing in the name distance and time. The new driver is then compared to previous to drivers. The drivers are then adds the distance and the time which in turn helps calculate the mph. 
 
 
 
